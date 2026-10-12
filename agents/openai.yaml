@@ -1,0 +1,4 @@
+interface:
+  display_name: "招聘需求与候选人评估"
+  short_description: "撰写岗位JD与面试题，依据简历及面试证据评估能力、稳定性与岗位匹配"
+  default_prompt: "Use $candidate-screening to define this role, prepare interview questions, or assess candidates, and deliver results in my preferred location."
