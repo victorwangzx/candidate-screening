@@ -3,7 +3,7 @@ name: candidate-screening
 description: Draft or improve job descriptions, build role-specific interview questions, and assess candidates from resumes and interview notes. Use for recruiting requirements, evidence-based screening, stability and follow-up verification, with user-selected chat, local-file or connected-document delivery.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: "Victor使用Codex制作"
 ---
 
@@ -47,6 +47,12 @@ User expectations always control. Role cards are configurable starting points, n
 - [Budget supervisor](references/budget-supervisor-role-card.md): annual/monthly budgets, forecasts, operating analysis and corrections; requires cycle-completeness verification.
 
 Derive other cards from the user's JD. Keep real organizational requirements with task materials, outside the public skill, unless a reusable anonymized reference is explicitly requested.
+
+## Name pronunciation
+
+When a candidate name or a current/former employer name contains an uncommon Chinese character, add a brief pronunciation note at its first mention or in the candidate background. Preserve the original spelling and heading/score convention. Use tone-marked pinyin, identify the character, and optionally provide a familiar homophone when helpful; do not annotate every ordinary name or repeat notes throughout the report.
+
+Verify uncertain readings with an authoritative dictionary. For polyphonic surnames, personal names or company-specific readings, prefer the person's confirmed pronunciation or the company's official introduction/audio; a dictionary reading alone may not resolve a proper name. Browse when uncertain, cite the supporting source near the note, and keep queries limited to what is needed without uploading resumes or interview notes. If unresolved, label the pronunciation as pending confirmation instead of claiming a guess is correct. Pronunciation is a reading aid, never a scoring factor. Include the same note in the user-selected delivery destination.
 
 ## Scores and decisions
 

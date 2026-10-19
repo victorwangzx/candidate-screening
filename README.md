@@ -1,6 +1,6 @@
 # Candidate Screening
 
-招聘需求与候选人评估 Skill · **v1.1.0**
+招聘需求与候选人评估 Skill · **v1.2.0**
 
 将岗位期待、简历和面试记录转化为可验证的招聘判断。适用于支持 Agent Skills 的助手；无需固定的文档平台或付费服务。
 
@@ -11,10 +11,11 @@
 - 评估候选人的能力、业务理解、职责层级、成果、稳定性、动机和招聘条件。
 - 根据面试补充更新同一候选人，标明证据、疑点和评分变化。
 - 选择聊天、本地文件或已有连接的在线文档交付。
+- 姓名或任职企业名称含生僻字时，补充带声调拼音；多音字及专名读音先核实，不确定则标记待确认。
 
 ## 安装
 
-从 GitHub Release 下载 `candidate-screening_v1.1.0.zip`，解压得到 `candidate-screening` 文件夹，放入助手支持的技能目录。Codex 通常使用 `~/.codex/skills/candidate-screening`；其他客户端按各自配置安装。已有同名技能时先备份个人修改再替换。
+从 GitHub Release 下载 `candidate-screening_v1.2.0.zip`，解压得到 `candidate-screening` 文件夹，放入助手支持的技能目录。Codex 通常使用 `~/.codex/skills/candidate-screening`；其他客户端按各自配置安装。已有同名技能时先备份个人修改再替换。
 
 也可以克隆仓库，将仓库内容作为 `candidate-screening` 技能目录使用。技能不需要安装Python或额外依赖；仅在读取特定文件、输出DOCX或连接在线文档时需要环境已有的相应能力。
 
