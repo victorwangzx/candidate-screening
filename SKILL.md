@@ -3,7 +3,7 @@ name: candidate-screening
 description: Draft or improve job descriptions, build role-specific interview questions, and assess candidates from resumes and interview notes. Use for recruiting requirements, evidence-based screening, stability and follow-up verification, with user-selected chat, local-file or connected-document delivery.
 license: MIT
 metadata:
-  version: "1.3.0"
+  version: "1.3.1"
   author: "Victor使用Codex制作"
 ---
 
@@ -58,7 +58,7 @@ Verify uncertain readings with an authoritative dictionary. For polyphonic surna
 
 Use a 1–10 score only when useful and supported. Explain reasons, weighting choices and confidence (high/medium/low). Unknown evidence lowers confidence and triggers verification, not automatic zero. Use “score pending” when evidence is insufficient. Do not silently change weights across candidates for one role.
 
-Separate capability fit from salary, location and availability constraints. State whether conclusions are preliminary, interview-validated or independently verified. Support human hiring judgment, not automatic hiring decisions.
+Score job-related capability and evidence only. Expected salary, salary gap or salary agreement must never increase or decrease the numeric score; apply the same rule to every candidate for the role. Discuss compensation separately as a practical condition for progressing. State whether conclusions are preliminary, interview-validated or independently verified. Support human hiring judgment, not automatic hiring decisions.
 
 For running interview records default to one H1 per candidate with score, e.g. `# 1 张三（AI评分：8/10）`, unless the established format differs. Update existing candidates instead of duplicating them.
 
